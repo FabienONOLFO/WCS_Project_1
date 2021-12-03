@@ -21,5 +21,6 @@ SELECT Seller
 	,Chiffres
 	,Mois
 	,Année
+	,Classement
 FROM ventes
 WHERE Classement <=2;
