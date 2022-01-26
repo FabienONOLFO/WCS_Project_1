@@ -1,5 +1,5 @@
-# Query to group Each month, the 2 sellers with the highest turnover by months by years.
-# via a temporary table named sale
+--- Query to group Each month, the 2 sellers with the highest turnover by months by years.
+--- via a temporary table named sale
 
 WITH ventes AS (
 		SELECT CONCAT(e.firstName,' ' , e.lastName) AS Seller
